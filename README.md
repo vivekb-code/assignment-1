@@ -2,7 +2,7 @@
 
 ## Technologies Used
 - Express Framework for server
-- Sequelize as ORM for mariaDB (We can use naive maria DB package but selected sequelize for future proof context to switch to anothers sql db)
+- Sequelize as ORM for mariaDB (We can use native maria DB package but selected sequelize for future proof context to switch to another sql dbs)
 - Swagger for API Documentation
 - React JS for frontend - Redux
 - Jest for backend unit / end-to-end tests
@@ -10,8 +10,8 @@
 ### Assumptions:
 - As a standard storing password as hashed password instead of plain text password.
     Used bcrypt to hash, we can go with plain password aswell and during login we can directly compare against password field(plain)
-- 2 APIS - 1. Get All users and 2. Get user by id are public as mentioned in assignment, we can authorize these requests make private.
-- Email case sensitive as I have observed in sample emails given in assignment
+- 2 APIS - 1. Get All users and 2. Get user by id are public as mentioned in assignment, we can authorize these requests and make private.
+- Email case sensitive as I have observed in sample emails given in assignment ( and a space before @)
 - Added Swagger doc for all 3 APIs
 - Used console.error for error logging for this assignment but we can use log4j for best logging
 - Role based access handled at front end
@@ -51,5 +51,4 @@ Peter | Peter@123.com | 8^23!3 | EMPLOYEE
 John | John@123.com | 98!891 | ADMIN
 Fred | Fred@123.com | 68651 | ADMIN
 
-
-
+GIF Flow:
