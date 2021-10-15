@@ -1,5 +1,10 @@
 # Assignment Luxoft
 
+Gif Flow:
+![Frontend flow](https://github.com/vivekb-code/assignment-1/blob/main/gifs/UI.gif)
+---
+![Swagger flow](https://github.com/vivekb-code/assignment-1/blob/main/gifs/swagger.gif)
+
 ## Technologies Used
 - Express Framework for server
 - Sequelize as ORM for mariaDB (We can use native maria DB package but selected sequelize for future proof context to switch to another sql dbs)
@@ -50,5 +55,3 @@ James | James@123.com | 1!23#4 | EMPLOYEE
 Peter | Peter@123.com | 8^23!3 | EMPLOYEE
 John | John@123.com | 98!891 | ADMIN
 Fred | Fred@123.com | 68651 | ADMIN
-
-GIF Flow:
