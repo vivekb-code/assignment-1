@@ -1,0 +1,29 @@
+{
+  "development": {
+    "username": "root",
+    "password": "toor",
+    "database": "assignment",
+    "host": "localhost",
+    "port": 3306,
+    "dialect": "mariadb",
+    "logging": false
+  },
+  "test": {
+    "username": "root",
+    "password": "toor",
+    "database": "assignment_test",
+    "host": "localhost",
+    "port": 3306,
+    "dialect": "mariadb",
+    "logging": false
+  },
+  "production": {
+    "username": "root",
+    "password": "toor",
+    "database": "assignment_production",
+    "host": "localhost",
+    "port": 3306,
+    "dialect": "mariadb",
+    "logging": false
+  }
+}

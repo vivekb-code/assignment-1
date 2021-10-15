@@ -1,0 +1,12 @@
+version: "3"
+services: 
+  mariadb:
+    image: mariadb:latest
+    container_name: docker-mariadb
+    ports:
+      - "3306:3306"
+    environment: 
+      MARIADB_ROOT_PASSWORD: "toor"
+      MARIADB_DATABASE: assignment
+    volumes:
+      - ./initDB:/docker-entrypoint-initdb.d
